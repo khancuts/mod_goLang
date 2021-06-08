@@ -1,5 +1,5 @@
 package modfunchi
 
-func SayHi() string {
-	return "Hell-o Bitch"
+func SayHi(name string) string {
+	return "Hell-o " + name
 }
